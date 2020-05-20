@@ -11,4 +11,17 @@ To starting this application, simply clone this repository by using this command
 
 ```
 
-or you can download directly by click the green button on the right corner.
+Or you can download directly by click the green button on the right corner.
+After you download or cloning this repository, the next step is run
+
+```
+    cd space-stock-listing-frontend
+    yarn cache clean --all
+    yarn install
+```
+
+After all those stuff completed, means all the dependencies were installed, then simply run
+
+```
+    yarn start
+```
