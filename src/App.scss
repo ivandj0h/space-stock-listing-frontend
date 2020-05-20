@@ -1,1 +1,30 @@
 @import "~bootstrap/scss/bootstrap";
+
+$bg-primary-color: #282c34;
+$bg-secondary-color: #61dafb;
+$btn-Primary-green: #0f752e;
+$btn-secondary-green: #1c9440;
+
+
+
+.my-container {
+    background-color: $bg-primary-color;
+}
+
+.my-column {
+    background-color: $bg-secondary-color;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: $btn-Primary-green;
+    border: none;
+
+    &:hover {
+        background: $btn-secondary-green;
+    }
+}
